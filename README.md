@@ -1,2 +1,2 @@
-# sign-up-form-
-Simple sign-up form
+# Simple Sign-up Form
+* Sign-up form
