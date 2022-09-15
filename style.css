@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: row;
+    width: 80vw;
+    max-width: 1000px;
+    height: 700px;
+}
+
+.splash-image {
+    width: 35%;
+    border: solid 1px black;
+}
+
+.main {
+    width: 65%;
+    border: solid 1px black;
+}
