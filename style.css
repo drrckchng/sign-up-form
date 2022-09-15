@@ -44,6 +44,30 @@ body {
 }
 
 .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 65%;
     border: solid 1px black;
+    padding: 50px;
 }
+
+form > div {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+div > label {
+    font-size: 10px;
+}
+
+input, label {
+    display: block;
+}
+
+.form-first-name,
+.form-last-name,
+.form-password {
+    float: left;
+}
+
