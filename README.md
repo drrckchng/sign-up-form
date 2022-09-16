@@ -1,5 +1,5 @@
 # Simple Sign-up Form
-* Sign-up form
+Simple sign up form using only HTML and CSS.
 
 ![Screenshot](screenshot.png)
 
