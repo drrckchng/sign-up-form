@@ -1,3 +1,12 @@
+:root {
+    --snow: #f8f4f3ff;
+    --light-gray: #d7d7ddff;
+    --lavender-gray: #c9ccd7ff;
+    --cadet-blue-crayola: #adb8cfff;
+    --indigo-dye: #2c4a65ff;
+    --heliotrope-gray: #a58c93ff;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: var(--light-gray);
 }
 
 .wrapper {
@@ -20,10 +30,11 @@ body {
     max-width: 1000px;
     min-width: 700px;
     height: 700px;
-    border: solid 1px rgb(235, 235, 235);
+    border: solid 1px #D7CED3;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: 10px 5px 5px rgb(202, 202, 202);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.171);
+    background-color: var(--snow);
 }
 
 .splash-image {
@@ -35,6 +46,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .splash-image .logo {
@@ -87,6 +99,9 @@ input[type='password'] {
 input[type='submit'] {
     margin-top: 25px;
     height: 45px;
+    background-color: var(--indigo-dye);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--snow);
 }
 
 p > label {
@@ -101,7 +116,7 @@ input, label {
 
 input {
     width: 100%;
-    border: 1px solid rgb(216, 216, 216);
+    border: 1px solid #E5E7EB;
     border-radius: 7px;
 }
 
