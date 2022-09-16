@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     width: 80vw;
     max-width: 1000px;
+    min-width: 700px;
     height: 700px;
     border: solid 1px rgb(235, 235, 235);
     border-radius: 15px;
@@ -54,13 +55,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 60%;
-    min-width: 468px;
+    min-width: 360px;
     padding: 50px;
 }
 
 .hype-text {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
 }
     
@@ -90,6 +91,8 @@ input[type='submit'] {
 
 p > label {
     font-size: 10px;
+    padding-bottom: 3px;
+    padding-left: 2px;
 }
 
 input, label {
@@ -98,4 +101,10 @@ input, label {
 
 input {
     width: 100%;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 7px;
+}
+
+.log-in {
+    margin-top: 20px;
 }
